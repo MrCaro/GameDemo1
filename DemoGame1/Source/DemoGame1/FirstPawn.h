@@ -15,9 +15,11 @@ class DEMOGAME1_API AFirstPawn : public APawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* MeshComponent;
 
+	/*Camera position behind pawn*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+	/*Follow camera*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
 
@@ -28,6 +30,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	/*Input movement for y axis*/
+	void MoveForward(float Value);
+
+	/*Input movement for x axis*/ 
+	void MoveRight(float Value);
 
 public:	
 	// Called every frame

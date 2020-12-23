@@ -65,8 +65,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+		{ "Comment", "/*Follow camera*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "FirstPawn.h" },
+		{ "ToolTip", "Follow camera" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPawn, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera_MetaData)) };
@@ -74,8 +76,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPawn_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+		{ "Comment", "/*Camera position behind pawn*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "FirstPawn.h" },
+		{ "ToolTip", "Camera position behind pawn" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPawn_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPawn, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPawn_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPawn_Statics::NewProp_CameraBoom_MetaData)) };
@@ -122,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPawn, 3075628943);
+	IMPLEMENT_CLASS(AFirstPawn, 1219590244);
 	template<> DEMOGAME1_API UClass* StaticClass<AFirstPawn>()
 	{
 		return AFirstPawn::StaticClass();

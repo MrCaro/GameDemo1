@@ -1,4 +1,4 @@
-# Game Demo 1 with Unreal Engine V 4.25 - C++ 
+# Game Demo 
 
 Create a basic gameplay fighting game.
 
@@ -8,3 +8,7 @@ Create a basic gameplay fighting game.
 * Character Animation
 * Adding features such as able to collect items and recover health 
 * AI Character to fight against main Character
+
+## TECH 
+
+Unreal Engine V4.25
