@@ -61,7 +61,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPawn); \
 #define DemoGame1_Source_DemoGame1_FirstPawn_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MeshComponent() { return STRUCT_OFFSET(AFirstPawn, MeshComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AFirstPawn, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AFirstPawn, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AFirstPawn, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(AFirstPawn, Speed); } \
+	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(AFirstPawn, Direction); }
 
 
 #define DemoGame1_Source_DemoGame1_FirstPawn_h_9_PROLOG

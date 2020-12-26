@@ -37,6 +37,14 @@ protected:
 	/*Input movement for x axis*/ 
 	void MoveRight(float Value);
 
+	/*Speed to scale movement of character*/
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Movement")
+	float Speed;
+
+	/*Store X and Y components axis of the Pawn direction*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
+	FVector2D Direction;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

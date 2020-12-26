@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 	DEMOGAME1_API UClass* Z_Construct_UClass_AFirstPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_DemoGame1();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -34,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Direction_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Direction;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
@@ -61,6 +70,24 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 		{ "ModuleRelativePath", "FirstPawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPawn_Statics::NewProp_Direction_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "Comment", "/*Store X and Y components axis of the Pawn direction*/" },
+		{ "ModuleRelativePath", "FirstPawn.h" },
+		{ "ToolTip", "Store X and Y components axis of the Pawn direction" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFirstPawn_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPawn, Direction), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AFirstPawn_Statics::NewProp_Direction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPawn_Statics::NewProp_Direction_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPawn_Statics::NewProp_Speed_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "Comment", "/*Speed to scale movement of character*/" },
+		{ "ModuleRelativePath", "FirstPawn.h" },
+		{ "ToolTip", "Speed to scale movement of character" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPawn_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0020080000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPawn, Speed), METADATA_PARAMS(Z_Construct_UClass_AFirstPawn_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPawn_Statics::NewProp_Speed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -95,6 +122,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPawn_Statics::NewProp_MeshComponent = { "MeshComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPawn, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPawn_Statics::NewProp_MeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPawn_Statics::NewProp_MeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPawn_Statics::NewProp_Direction,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPawn_Statics::NewProp_Speed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPawn_Statics::NewProp_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPawn_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPawn_Statics::NewProp_MeshComponent,
@@ -126,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPawn, 1219590244);
+	IMPLEMENT_CLASS(AFirstPawn, 4272536308);
 	template<> DEMOGAME1_API UClass* StaticClass<AFirstPawn>()
 	{
 		return AFirstPawn::StaticClass();

@@ -20,6 +20,9 @@ AFirstPawn::AFirstPawn()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 
+	Speed = 500.f;
+	Direction = FVector2D(0.f, 0.f);
+
 }
 
 // Called when the game starts or when spawned
@@ -31,6 +34,8 @@ void AFirstPawn::BeginPlay()
 // Movement functions
 void AFirstPawn::MoveForward(float Value)
 {
+	Direction.X = Value;
+
 	if (Value != 0.0f)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("MoveForward: %f"), Value);
@@ -39,6 +44,8 @@ void AFirstPawn::MoveForward(float Value)
 
 void AFirstPawn::MoveRight(float Value)
 {
+	Direction.Y = Value;
+
 	if (Value != 0.0f)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("MoveRight: %f"), Value);
@@ -49,6 +56,14 @@ void AFirstPawn::MoveRight(float Value)
 void AFirstPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	FVector Location = GetActorLocation();
+	FVector DeltaLocation = FVector(Direction.X, Direction.Y, 0.f);
+	DeltaLocation.Normalize();
+	DeltaLocation *= Speed * DeltaTime;
+	Location += DeltaLocation;
+
+	SetActorLocation(Location);
 
 }
 
