@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DemoGame1-9854.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\DemoGame1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1Character.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1GameMode-DESKTOP-4VJ6QC5.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1GameMode.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\FirstPawn.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\FPawn.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\MyPawn.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1.init.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1Character.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\DemoGame1GameMode.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\FirstPawn.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\FPawn.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\MyPawn.gen.cpp.obj"
+"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\Default.rc2.res"
+/OUT:"C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-9854.lib"
+/INCLUDE:IMPLEMENT_MODULE_DemoGame1

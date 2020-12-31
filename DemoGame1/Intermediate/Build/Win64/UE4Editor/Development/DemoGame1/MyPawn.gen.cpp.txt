@@ -1,0 +1,5 @@
+C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\Definitions.DemoGame1.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Source\DemoGame1/MyPawn.h
+C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Inc\DemoGame1\MyPawn.generated.h

@@ -6,10 +6,10 @@
 
 ADemoGame1GameMode::ADemoGame1GameMode()
 {
-	// set default pawn class to our Blueprinted character
-	/*static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("Class'/Script/DemoGame1.FirstPawn'"));
+	//set default pawn class to our Blueprinted character
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("Class'/Script/DemoGame1.FirstPawn'"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
-	}*/
+	}
 }

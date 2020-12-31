@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DemoGame1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1E9676BE-C6C8-4D2C-A36B-E692F25EF3F0}</UniqueIdentifier>
+      <UniqueIdentifier>{3B3783EE-1C34-4A26-97F2-A8716288C608}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DemoGame1.Target.cs">
       <Filter>Source</Filter>
@@ -12,12 +12,18 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F8A65EAD-F14A-4FF0-8ACD-0DB719E412E8}</UniqueIdentifier>
+      <UniqueIdentifier>{C7A09E71-B42C-4E75-B9A4-D0A0289B36C5}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Config\DefaultEditor-DESKTOP-4VJ6QC5.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine-DESKTOP-4VJ6QC5.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -30,7 +36,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DemoGame1">
-      <UniqueIdentifier>{2C6FF9F4-5C79-48C2-8BD1-7EB13C9DC658}</UniqueIdentifier>
+      <UniqueIdentifier>{C182E7B9-8BB4-4447-AB57-7EDEC2E85988}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DemoGame1\DemoGame1.Build.cs">
       <Filter>Source\DemoGame1</Filter>
@@ -57,6 +63,12 @@
       <Filter>Source\DemoGame1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DemoGame1\FirstPawn.h">
+      <Filter>Source\DemoGame1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DemoGame1\MainCharacter.cpp">
+      <Filter>Source\DemoGame1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DemoGame1\MainCharacter.h">
       <Filter>Source\DemoGame1</Filter>
     </ClInclude>
   </ItemGroup>
