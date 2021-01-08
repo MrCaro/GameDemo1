@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMainCharacter)
 
 
-#define DemoGame1_Source_DemoGame1_MainCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define DemoGame1_Source_DemoGame1_MainCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AMainCharacter, CameraBoom); } \
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMainCharacter, FollowCamera); }
+
+
 #define DemoGame1_Source_DemoGame1_MainCharacter_h_9_PROLOG
 #define DemoGame1_Source_DemoGame1_MainCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

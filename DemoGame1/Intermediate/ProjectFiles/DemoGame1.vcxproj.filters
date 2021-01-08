@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DemoGame1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3B3783EE-1C34-4A26-97F2-A8716288C608}</UniqueIdentifier>
+      <UniqueIdentifier>{89C4008C-5827-445D-89E9-4BCBED3E1A07}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DemoGame1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C7A09E71-B42C-4E75-B9A4-D0A0289B36C5}</UniqueIdentifier>
+      <UniqueIdentifier>{E4D4D621-98AE-4748-98F3-AC0CF9129C38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor-DESKTOP-4VJ6QC5.ini">
       <Filter>Config</Filter>
@@ -36,7 +36,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DemoGame1">
-      <UniqueIdentifier>{C182E7B9-8BB4-4447-AB57-7EDEC2E85988}</UniqueIdentifier>
+      <UniqueIdentifier>{8E54B88A-BD40-46BB-A79B-91055F3E9819}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DemoGame1\DemoGame1.Build.cs">
       <Filter>Source\DemoGame1</Filter>
@@ -63,6 +63,12 @@
       <Filter>Source\DemoGame1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DemoGame1\FirstPawn.h">
+      <Filter>Source\DemoGame1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DemoGame1\MainAnimInstance.cpp">
+      <Filter>Source\DemoGame1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DemoGame1\MainAnimInstance.h">
       <Filter>Source\DemoGame1</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\DemoGame1\MainCharacter.cpp">

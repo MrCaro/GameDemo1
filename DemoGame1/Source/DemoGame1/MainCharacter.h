@@ -11,6 +11,14 @@ class DEMOGAME1_API AMainCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	/*positioning camera behing character*/
+	UPROPERTY(VisibleAnywhere, BLueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* CameraBoom;
+
+	/*follow camera*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* FollowCamera;
+
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();

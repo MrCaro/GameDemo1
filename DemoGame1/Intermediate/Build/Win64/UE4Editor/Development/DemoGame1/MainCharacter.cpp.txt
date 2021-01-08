@@ -1,4 +1,8 @@
 C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\Definitions.DemoGame1.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Source\DemoGame1\MainCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h

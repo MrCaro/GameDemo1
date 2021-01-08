@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	DEMOGAME1_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_DemoGame1();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void AMainCharacter::StaticRegisterNativesAMainCharacter()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +56,32 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/*follow camera*/" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+		{ "ToolTip", "follow camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/*positioning camera behing character*/" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+		{ "ToolTip", "positioning camera behing character" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_FollowCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_CameraBoom,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMainCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMainCharacter>::IsAbstract,
 	};
@@ -54,11 +91,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AMainCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams))
@@ -72,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 2609001608);
+	IMPLEMENT_CLASS(AMainCharacter, 1338722750);
 	template<> DEMOGAME1_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();
