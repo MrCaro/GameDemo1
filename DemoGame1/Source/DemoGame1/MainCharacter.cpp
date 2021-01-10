@@ -2,6 +2,8 @@
 
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Controller.h"
 #include "MainCharacter.h"
 #include "Components/InputComponent.h"
 
@@ -10,6 +12,17 @@ AMainCharacter::AMainCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	//Don't rotate whent the controller rotates
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
+	//Config character movement
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	//Character moves in the direction of input
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.f, 0.0f);
 
 	//Create camera boom (pulls in towars the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -30,16 +43,28 @@ void AMainCharacter::BeginPlay()
 	Super::BeginPlay();	
 }
 
+
+//Maybe combine MoveForward and MoveRight function
 void AMainCharacter::MoveForward(float Value)
 {
-	FVector Forward = GetActorForwardVector();
-	AddMovementInput(Forward, Value);
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
+	}
 }
 
 void AMainCharacter::MoveRight(float Value)
 {
-	FVector Right = GetActorRightVector();
-	AddMovementInput(Right, Value);
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, Value);
+	}
 }
 
 // Called every frame
