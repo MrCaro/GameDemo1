@@ -868,3 +868,741 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.10-23.52.45:403][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
 [2021.01.10-23.52.45:444][597]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2021.01.10-23.52.45:480][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.01.11-05.02.05:850][376]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1755a93bf70 [can pipeline])
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 1 (Re-using existing connection! (#28) with host datarouter.ol.epicgames.com)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.21.119.159) port 443 (#28))
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: 000001760F556400: libcurl info message cache 7 (Closing connection 28)
+[2021.01.11-06.13.57:537][508]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.11-06.13.57:855][508]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.01.11-09.41.20:475][573]LogTemp: Resetting audio stream to device id 
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 4: BackLeft
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 5: BackRight
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 6: SideLeft
+[2021.01.11-09.41.20:574][573]LogAudioMixer: Display: 7: SideRight
+[2021.01.11-13.59.44:098][584]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:8762).
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1755a93bf70 [can pipeline])
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 1 (Re-using existing connection! (#29) with host datarouter.ol.epicgames.com)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.230.164) port 443 (#29))
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.11-19.50.49:800][591]LogHttp: Warning: 0000017654A4CF00: libcurl info message cache 7 (Closing connection 29)
+[2021.01.11-19.50.50:081][592]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.11-19.50.50:727][593]LogTemp: Resetting audio stream to device id 
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 4: BackLeft
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 5: BackRight
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 6: SideLeft
+[2021.01.11-19.50.50:802][593]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.42.01:517][600]LogHttp: Warning: 000001758537B200: HTTP request timed out after 17481.38 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: request failed, libcurl error: 0 (No error)
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1755a93bf70 [can pipeline])
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: libcurl info message cache 1 (Re-using existing connection! (#30) with host datarouter.ol.epicgames.com)
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.230.164) port 443 (#30))
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: 000001758537B200: libcurl info message cache 4 (Closing connection 30)
+[2021.01.12-00.42.04:444][600]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.12-00.42.04:769][600]LogTemp: Resetting audio stream to device id 
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.42.04:898][600]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.42.57:479][909]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-00.42.57:500][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-00.42.57:501][909]PIE: New page: PIE session: LV_Soul_Slum (Jan 11, 2021, 2:42:57 PM)
+[2021.01.12-00.42.57:501][909]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.42.57:962][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.460587s)
+[2021.01.12-00.42.57:964][909]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-00.42.57:964][909]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001761EE1BE00), frame # 62909
+[2021.01.12-00.42.57:964][909]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017620088E00), frame # 62909
+[2021.01.12-00.42.57:965][909]LogPlayLevel: PIE: World Init took: (0.002848s)
+[2021.01.12-00.42.57:965][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.463828s)
+[2021.01.12-00.42.58:004][909]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-00.42.58:013][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-00.42.58:013][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-00.42.58:014][909]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-00.42.58:014][909]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.42.58:019][909]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.42.58:060][909]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-00.42.58:060][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-00.42.58:060][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-00.42.58:060][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-00.42.58:060][909]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-00.42.58:075][909]LogInit: FAudioDevice initialized.
+[2021.01.12-00.42.58:082][909]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-00.42.58:316][909]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.11-19.42.58
+[2021.01.12-00.42.58:361][909]LogWorld: Bringing up level for play took: 0.087957
+[2021.01.12-00.42.58:362][909]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.12-00.42.58:372][909]PIE: Server logged in
+[2021.01.12-00.42.58:373][909]PIE: Play in editor total start time 0.876 seconds.
+[2021.01.12-00.43.49:815][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.43.49:815][978]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.43.49:816][978]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-00.43.49:821][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.43.49:832][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-00.43.49:839][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.43.49:867][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.43.49:914][978]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017620088E00), frame # 65978
+[2021.01.12-00.43.49:914][978]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001761EE1BE00), frame # 65978
+[2021.01.12-00.43.49:920][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.12-00.43.49:973][979]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.12-00.43.50:008][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.01.12-00.47.41:679][661]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-00.47.41:692][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-00.47.41:692][661]PIE: New page: PIE session: LV_Soul_Slum (Jan 11, 2021, 2:47:41 PM)
+[2021.01.12-00.47.41:693][661]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.47.41:881][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188024s)
+[2021.01.12-00.47.41:882][661]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-00.47.41:882][661]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001761F730600), frame # 67661
+[2021.01.12-00.47.41:882][661]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000176429DAD40), frame # 67661
+[2021.01.12-00.47.41:883][661]LogPlayLevel: PIE: World Init took: (0.002012s)
+[2021.01.12-00.47.41:883][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.190567s)
+[2021.01.12-00.47.41:911][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.01.12-00.47.41:913][661]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-00.47.41:914][661]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-00.47.41:914][661]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-00.47.41:914][661]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.47.41:917][661]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.47.41:948][661]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-00.47.41:948][661]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-00.47.41:948][661]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-00.47.41:948][661]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-00.47.41:949][661]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-00.47.41:960][661]LogInit: FAudioDevice initialized.
+[2021.01.12-00.47.41:968][661]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-00.47.42:085][661]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.11-19.47.42
+[2021.01.12-00.47.42:120][661]LogWorld: Bringing up level for play took: 0.068259
+[2021.01.12-00.47.42:120][661]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.12-00.47.42:127][661]PIE: Server logged in
+[2021.01.12-00.47.42:127][661]PIE: Play in editor total start time 0.438 seconds.
+[2021.01.12-00.48.08:187][213]Set new viewmode: Wireframe
+[2021.01.12-00.48.09:019][263]Set new viewmode: Wireframe
+[2021.01.12-00.48.13:235][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.48.13:235][514]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.48.13:236][514]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-00.48.13:242][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.48.13:252][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-00.48.13:259][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.48.13:325][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.48.13:352][514]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000176429DAD40), frame # 69514
+[2021.01.12-00.48.13:352][514]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001761F730600), frame # 69514
+[2021.01.12-00.48.13:357][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.01.12-00.48.13:402][515]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.12-00.48.13:436][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.01.12-00.48.14:780][594]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-00.48.14:793][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-00.48.14:793][594]PIE: New page: PIE session: LV_Soul_Slum (Jan 11, 2021, 2:48:14 PM)
+[2021.01.12-00.48.14:793][594]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.48.14:989][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194545s)
+[2021.01.12-00.48.14:989][594]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-00.48.14:990][594]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017604037E00), frame # 69594
+[2021.01.12-00.48.14:990][594]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001761DE6EE80), frame # 69594
+[2021.01.12-00.48.14:990][594]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2021.01.12-00.48.14:990][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.196452s)
+[2021.01.12-00.48.15:015][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-00.48.15:018][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-00.48.15:018][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-00.48.15:019][594]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-00.48.15:019][594]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-00.48.15:020][594]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.48.15:021][594]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.48.15:052][594]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-00.48.15:052][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-00.48.15:052][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-00.48.15:052][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-00.48.15:053][594]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-00.48.15:066][594]LogInit: FAudioDevice initialized.
+[2021.01.12-00.48.15:072][594]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-00.48.15:196][594]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.11-19.48.15
+[2021.01.12-00.48.15:230][594]LogWorld: Bringing up level for play took: 0.068100
+[2021.01.12-00.48.15:231][594]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.12-00.48.15:236][594]PIE: Server logged in
+[2021.01.12-00.48.15:237][594]PIE: Play in editor total start time 0.446 seconds.
+[2021.01.12-00.49.37:055][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.49.37:055][189]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.49.37:057][189]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-00.49.37:062][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.49.37:074][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-00.49.37:080][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.49.37:138][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.49.37:158][189]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001761DE6EE80), frame # 72189
+[2021.01.12-00.49.37:158][189]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017604037E00), frame # 72189
+[2021.01.12-00.49.37:161][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.12-00.49.37:204][190]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.12-00.49.37:240][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.01.12-00.50.08:426][430]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-00.50.08:439][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-00.50.08:439][430]PIE: New page: PIE session: LV_Soul_Slum (Jan 11, 2021, 2:50:08 PM)
+[2021.01.12-00.50.08:482][430]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.50.08:664][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180828s)
+[2021.01.12-00.50.08:664][430]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-00.50.08:664][430]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001761FFA9A00), frame # 72430
+[2021.01.12-00.50.08:664][430]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001762801C680), frame # 72430
+[2021.01.12-00.50.08:665][430]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2021.01.12-00.50.08:665][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.182422s)
+[2021.01.12-00.50.08:690][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-00.50.08:692][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-00.50.08:692][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-00.50.08:693][430]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-00.50.08:693][430]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.50.08:695][430]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.50.08:727][430]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-00.50.08:727][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-00.50.08:727][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-00.50.08:727][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-00.50.08:727][430]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-00.50.08:738][430]LogInit: FAudioDevice initialized.
+[2021.01.12-00.50.08:749][430]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-00.50.08:863][430]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.11-19.50.08
+[2021.01.12-00.50.08:898][430]LogWorld: Bringing up level for play took: 0.067151
+[2021.01.12-00.50.08:898][430]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.12-00.50.08:905][430]PIE: Server logged in
+[2021.01.12-00.50.08:906][430]PIE: Play in editor total start time 0.469 seconds.
+[2021.01.12-00.50.38:485][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.50.38:485][198]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.50.38:487][198]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-00.50.38:492][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.50.38:499][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-00.50.38:506][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.50.38:533][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.50.38:573][198]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001762801C680), frame # 74198
+[2021.01.12-00.50.38:573][198]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001761FFA9A00), frame # 74198
+[2021.01.12-00.50.38:579][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.01.12-00.50.38:621][199]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.12-00.50.38:661][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.12-00.53.01:691][204]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-00.53.01:708][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-00.53.01:708][204]PIE: New page: PIE session: LV_Soul_Slum (Jan 11, 2021, 2:53:01 PM)
+[2021.01.12-00.53.01:708][204]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.53.01:903][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194981s)
+[2021.01.12-00.53.01:904][204]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-00.53.01:904][204]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001766391BE00), frame # 75204
+[2021.01.12-00.53.01:904][204]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001761EFA5940), frame # 75204
+[2021.01.12-00.53.01:905][204]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2021.01.12-00.53.01:905][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.197131s)
+[2021.01.12-00.53.01:932][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-00.53.01:936][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-00.53.01:936][204]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-00.53.01:936][204]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-00.53.01:939][204]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-00.53.01:970][204]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-00.53.01:971][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-00.53.01:971][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-00.53.01:971][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-00.53.01:971][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-00.53.01:982][204]LogInit: FAudioDevice initialized.
+[2021.01.12-00.53.01:994][204]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-00.53.02:107][204]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.11-19.53.02
+[2021.01.12-00.53.02:142][204]LogWorld: Bringing up level for play took: 0.067510
+[2021.01.12-00.53.02:142][204]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.01.12-00.53.02:149][204]PIE: Server logged in
+[2021.01.12-00.53.02:150][204]PIE: Play in editor total start time 0.444 seconds.
+[2021.01.12-00.54.09:356][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.54.09:356][549]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-00.54.09:357][549]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-00.54.09:363][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.54.09:367][549]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-00.54.09:374][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-00.54.09:417][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-00.54.09:439][549]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001761EFA5940), frame # 78549
+[2021.01.12-00.54.09:439][549]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001766391BE00), frame # 78549
+[2021.01.12-00.54.09:447][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.01.12-00.54.09:494][550]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.01.12-00.54.09:525][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.01.12-01.36.13:700][455]LogTemp: Resetting audio stream to device id 
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-01.36.13:758][455]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-19.20.25:539][461]LogHttp: Warning: 00000175BB81B900: HTTP request timed out after 63862.42 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.12-19.20.25:539][461]LogTemp: Resetting audio stream to device id 
+[2021.01.12-19.20.28:533][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-19.20.28:535][461]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-19.20.29:366][462]LogHttp: Warning: 00000175BB81B900: request failed, libcurl error: 0 (No error)
+[2021.01.12-19.20.29:366][462]LogHttp: Warning: 00000175BB81B900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1755a93bf70 [can pipeline])
+[2021.01.12-19.20.29:367][462]LogHttp: Warning: 00000175BB81B900: libcurl info message cache 1 (Re-using existing connection! (#36) with host datarouter.ol.epicgames.com)
+[2021.01.12-19.20.29:367][462]LogHttp: Warning: 00000175BB81B900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.18.6) port 443 (#36))
+[2021.01.12-19.20.29:368][462]LogHttp: Warning: 00000175BB81B900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.12-19.20.29:368][462]LogHttp: Warning: 00000175BB81B900: libcurl info message cache 4 (Closing connection 36)
+[2021.01.12-19.20.29:369][462]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3FE7629E-4FB7-20D5-15C9-9A85E941BA6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.12-19.20.29:421][462]LogTemp: Resetting audio stream to device id 
+[2021.01.12-19.20.29:464][462]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-19.20.29:464][462]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-19.20.29:464][462]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-19.20.29:464][462]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-19.20.29:465][462]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-19.20.29:465][462]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-19.20.29:465][462]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-19.20.29:465][462]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-19.33.47:415][750]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-19.33.47:429][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-19.33.47:430][750]PIE: New page: PIE session: LV_Soul_Slum (Jan 12, 2021, 9:33:47 AM)
+[2021.01.12-19.33.47:430][750]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-19.33.47:629][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.199230s)
+[2021.01.12-19.33.47:630][750]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-19.33.47:630][750]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017663C46600), frame # 122750
+[2021.01.12-19.33.47:630][750]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000175A07520C0), frame # 122750
+[2021.01.12-19.33.47:631][750]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2021.01.12-19.33.47:631][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.201094s)
+[2021.01.12-19.33.47:656][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-19.33.47:661][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-19.33.47:661][750]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-19.33.47:661][750]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-19.33.47:664][750]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-19.33.47:695][750]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-19.33.47:696][750]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-19.33.47:696][750]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-19.33.47:696][750]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-19.33.47:696][750]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-19.33.47:708][750]LogInit: FAudioDevice initialized.
+[2021.01.12-19.33.47:716][750]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-19.33.47:894][750]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 0) at 2021.01.12-14.33.47
+[2021.01.12-19.33.47:930][750]LogWorld: Bringing up level for play took: 0.068220
+[2021.01.12-19.33.47:930][750]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.12-19.33.47:938][750]PIE: Server logged in
+[2021.01.12-19.33.47:939][750]PIE: Play in editor total start time 0.512 seconds.
+[2021.01.12-19.33.56:870][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-19.33.56:870][685]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-19.33.56:873][685]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-19.33.56:879][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-19.33.56:887][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-19.33.56:893][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-19.33.56:931][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-19.33.56:953][685]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000175A07520C0), frame # 123685
+[2021.01.12-19.33.56:953][685]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017663C46600), frame # 123685
+[2021.01.12-19.33.56:957][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.01.12-19.33.57:013][686]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.12-19.33.57:047][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.01.12-19.54.51:829][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chapter7/BP_MainAnim" FILE="../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Content/Chapter7/BP_MainAnim.uasset" SILENT=true
+[2021.01.12-19.54.51:879][625]LogSavePackage: Moving '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/BP_MainAnim3F15FBBD4ED62AEFDAB2BE8DB907E273.tmp' to '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Content/Chapter7/BP_MainAnim.uasset'
+[2021.01.12-19.54.51:902][625]AssetCheck: New page: Asset Save: BP_MainAnim
+[2021.01.12-19.54.51:902][625]LogContentValidation: Display: Validating AnimBlueprint /Game/Chapter7/BP_MainAnim.BP_MainAnim
+[2021.01.12-19.57.11:977][220]LogEditorTransaction: Undo Create Pin Link
+[2021.01.12-19.57.12:093][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-19.57.12:684][261]LogEditorTransaction: Undo Create Reroute Node
+[2021.01.12-19.57.12:778][261]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-19.59.24:789][190]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.01.12-19.59.24:793][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulCity/Maps/LV_Soul_Slum' took 0.038
+[2021.01.12-19.59.24:794][190]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Chapter7/BP_MainAnim] ([1] browsable assets)...
+[2021.01.12-19.59.24:806][190]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Chapter7/BP_MainAnim.BP_MainAnim]
+[2021.01.12-19.59.24:807][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/Chapter7/BP_MainAnim]
+[2021.01.12-19.59.24:837][190]LogSavePackage: Moving '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/BP_MainAnim_Auto221E4D3D342DB31BB7D9AD09B713B2567.tmp' to '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/Autosaves/Game/Chapter7/BP_MainAnim_Auto2.uasset'
+[2021.01.12-19.59.24:839][190]LogFileHelpers: Auto-saving content packages took 0.046
+[2021.01.12-20.04.27:910][778]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_E_target.Ability_E_target
+[2021.01.12-20.04.27:923][778]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_E_target.Ability_E_target
+[2021.01.12-20.04.28:032][778]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-20.04.28:099][778]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.12-20.04.28:943][778]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.04.30:735][909]LogSlate: Window 'Ability_E_target' being destroyed
+[2021.01.12-20.04.30:743][909]LogSlate: Window 'Ability_E_target' being destroyed
+[2021.01.12-20.04.30:744][909]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.30:744][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.30:779][909]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.30:779][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.30:886][909]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.30:886][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.36:546][560]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2021.01.12-20.04.37:318][643]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.04.40:341][981]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Start.Jump_Start
+[2021.01.12-20.04.40:355][981]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Start.Jump_Start
+[2021.01.12-20.04.40:362][981]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-20.04.40:413][981]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.12-20.04.40:800][981]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.04.42:605][114]LogSlate: Window 'Jump_Start' being destroyed
+[2021.01.12-20.04.42:611][114]LogSlate: Window 'Jump_Start' being destroyed
+[2021.01.12-20.04.42:612][114]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.42:612][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.42:645][114]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.42:645][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.42:740][114]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.42:740][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.50:580][ 22]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Apex.Jump_Apex
+[2021.01.12-20.04.50:592][ 22]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Apex.Jump_Apex
+[2021.01.12-20.04.50:599][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-20.04.50:661][ 22]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.12-20.04.51:022][ 22]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.04.52:417][126]LogSlate: Window 'Jump_Apex' being destroyed
+[2021.01.12-20.04.52:425][126]LogSlate: Window 'Jump_Apex' being destroyed
+[2021.01.12-20.04.52:425][126]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.52:425][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.52:458][126]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.52:458][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.52:537][126]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.04.52:537][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.04.59:576][952]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Land.Jump_Land
+[2021.01.12-20.04.59:587][952]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Land.Jump_Land
+[2021.01.12-20.04.59:595][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-20.04.59:648][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.12-20.04.59:991][952]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.05.01:441][ 61]LogSlate: Window 'Jump_Land' being destroyed
+[2021.01.12-20.05.01:449][ 61]LogSlate: Window 'Jump_Land' being destroyed
+[2021.01.12-20.05.01:450][ 61]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.01:450][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.05.01:482][ 61]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.01:482][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.05.01:564][ 61]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.01:564][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.05.19:173][105]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive
+[2021.01.12-20.05.19:189][105]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive
+[2021.01.12-20.05.19:197][105]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.12-20.05.19:252][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.12-20.05.19:625][105]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.05.22:320][301]LogSlate: Window 'Jump_Recovery_Additive' being destroyed
+[2021.01.12-20.05.22:327][301]LogSlate: Window 'Jump_Recovery_Additive' being destroyed
+[2021.01.12-20.05.22:328][301]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.22:328][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.05.22:363][301]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.22:363][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.05.22:457][301]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.05.22:457][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.09.30:865][438]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2021.01.12-20.09.33:003][691]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.12-20.12.43:417][616]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2021.01.12-20.12.43:427][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulCity/Maps/LV_Soul_Slum' took 0.175
+[2021.01.12-20.12.43:427][616]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Chapter7/BP_MainAnim] ([1] browsable assets)...
+[2021.01.12-20.12.43:438][616]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Chapter7/BP_MainAnim.BP_MainAnim]
+[2021.01.12-20.12.43:438][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/Chapter7/BP_MainAnim]
+[2021.01.12-20.12.43:487][616]LogSavePackage: Moving '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/BP_MainAnim_Auto3F614EAE34EC7667736BA78997AC04F6F.tmp' to '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/Autosaves/Game/Chapter7/BP_MainAnim_Auto3.uasset'
+[2021.01.12-20.12.43:488][616]LogFileHelpers: Auto-saving content packages took 0.061
+[2021.01.12-20.14.47:447][883]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-20.14.47:463][883]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.12-20.14.47:464][883]LogPlayLevel: [PlayLevel] Compiling BP_MainAnim before play...
+[2021.01.12-20.14.47:579][883]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2021.01.12-20.14.47:589][883]LogPlayLevel: PlayLevel: Blueprint regeneration took 125 ms (1 blueprints)
+[2021.01.12-20.14.47:589][883]PIE: New page: PIE session: LV_Soul_Slum (Jan 12, 2021, 10:14:47 AM)
+[2021.01.12-20.14.47:611][883]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.14.47:805][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.193914s)
+[2021.01.12-20.14.47:806][883]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-20.14.47:806][883]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000176631C9600), frame # 286883
+[2021.01.12-20.14.47:806][883]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000176218AF4C0), frame # 286883
+[2021.01.12-20.14.47:806][883]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2021.01.12-20.14.47:807][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.195649s)
+[2021.01.12-20.14.47:833][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-20.14.47:835][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-20.14.47:835][883]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-20.14.47:835][883]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-20.14.47:838][883]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-20.14.47:872][883]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-20.14.47:872][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-20.14.47:872][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-20.14.47:872][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-20.14.47:873][883]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-20.14.47:885][883]LogInit: FAudioDevice initialized.
+[2021.01.12-20.14.47:892][883]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-20.14.48:015][883]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 0) at 2021.01.12-15.14.48
+[2021.01.12-20.14.48:049][883]LogWorld: Bringing up level for play took: 0.066984
+[2021.01.12-20.14.48:049][883]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.01.12-20.14.48:055][883]PIE: Server logged in
+[2021.01.12-20.14.48:056][883]PIE: Play in editor total start time 0.594 seconds.
+[2021.01.12-20.15.02:164][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.15.02:164][383]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.15.02:166][383]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.15.02:172][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.15.02:185][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-20.15.02:192][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.15.02:219][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.15.02:273][383]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000176218AF4C0), frame # 288383
+[2021.01.12-20.15.02:273][383]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000176631C9600), frame # 288383
+[2021.01.12-20.15.02:278][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.01.12-20.15.02:327][384]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.01.12-20.15.02:360][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.01.12-20.22.58:526][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.01.12-20.22.58:538][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SoulCity/Maps/LV_Soul_Slum' took 0.043
+[2021.01.12-20.22.58:539][634]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Chapter7/BP_MainAnim] ([1] browsable assets)...
+[2021.01.12-20.22.58:577][634]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Chapter7/BP_MainAnim.BP_MainAnim]
+[2021.01.12-20.22.58:577][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Chapter7/BP_MainAnim]
+[2021.01.12-20.22.58:615][634]LogSavePackage: Moving '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/BP_MainAnim_Auto4590E345B49EC11B9D48F419426D30B77.tmp' to '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/Autosaves/Game/Chapter7/BP_MainAnim_Auto4.uasset'
+[2021.01.12-20.22.58:617][634]LogFileHelpers: Auto-saving content packages took 0.078
+[2021.01.12-20.23.24:834][915]LogHotReload: New module detected: UE4Editor-DemoGame1-0005.dll
+[2021.01.12-20.23.25:717][951]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.12-20.23.28:095][951]LogContentBrowser: Native class hierarchy updated for 'DemoGame1' in 0.0024 seconds. Added 5 classes and 2 folders.
+[2021.01.12-20.23.28:100][951]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.12-20.23.28:260][951]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3433 classes and 825 folders.
+[2021.01.12-20.23.28:262][951]Display: HotReload took  2.5s.
+[2021.01.12-20.23.29:828][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-20.23.29:845][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-20.23.29:845][ 20]PIE: New page: PIE session: LV_Soul_Slum (Jan 12, 2021, 10:23:29 AM)
+[2021.01.12-20.23.29:845][ 20]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.23.30:021][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175559s)
+[2021.01.12-20.23.30:022][ 20]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-20.23.30:022][ 20]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001766324BE00), frame # 294020
+[2021.01.12-20.23.30:022][ 20]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017662B45080), frame # 294020
+[2021.01.12-20.23.30:022][ 20]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2021.01.12-20.23.30:022][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.177198s)
+[2021.01.12-20.23.30:089][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-20.23.30:092][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-20.23.30:093][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-20.23.30:094][ 20]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-20.23.30:094][ 20]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-20.23.30:096][ 20]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-20.23.30:096][ 20]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-20.23.30:096][ 20]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-20.23.30:097][ 20]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-20.23.30:097][ 20]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-20.23.30:097][ 20]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-20.23.30:097][ 20]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-20.23.30:097][ 20]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-20.23.30:129][ 20]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-20.23.30:130][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-20.23.30:130][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-20.23.30:130][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-20.23.30:130][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-20.23.30:143][ 20]LogInit: FAudioDevice initialized.
+[2021.01.12-20.23.30:148][ 20]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-20.23.30:271][ 20]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.12-15.23.30
+[2021.01.12-20.23.30:306][ 20]LogWorld: Bringing up level for play took: 0.070676
+[2021.01.12-20.23.30:307][ 20]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.01.12-20.23.30:315][ 20]PIE: Server logged in
+[2021.01.12-20.23.30:315][ 20]PIE: Play in editor total start time 0.476 seconds.
+[2021.01.12-20.23.40:739][641]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.01.12-20.23.47:214][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.23.47:214][ 27]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.23.47:215][ 27]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.23.47:221][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.23.47:232][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-20.23.47:239][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.23.47:288][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.23.47:299][ 27]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017662B45080), frame # 295027
+[2021.01.12-20.23.47:299][ 27]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001766324BE00), frame # 295027
+[2021.01.12-20.23.47:328][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.01.12-20.23.47:379][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.01.12-20.23.47:421][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.12-20.24.25:222][855]BlueprintLog: New page: Compile BP_MainAnim
+[2021.01.12-20.24.25:270][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.01.12-20.24.41:587][833]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-20.24.41:601][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-20.24.41:601][833]PIE: New page: PIE session: LV_Soul_Slum (Jan 12, 2021, 10:24:41 AM)
+[2021.01.12-20.24.41:601][833]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.24.41:786][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183950s)
+[2021.01.12-20.24.41:786][833]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-20.24.41:787][833]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017665F6BE00), frame # 297833
+[2021.01.12-20.24.41:787][833]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017611B0E480), frame # 297833
+[2021.01.12-20.24.41:788][833]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2021.01.12-20.24.41:788][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.186055s)
+[2021.01.12-20.24.41:813][833]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-20.24.41:817][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-20.24.41:817][833]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-20.24.41:817][833]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-20.24.41:820][833]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-20.24.41:851][833]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-20.24.41:851][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-20.24.41:851][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-20.24.41:851][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-20.24.41:851][833]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-20.24.41:863][833]LogInit: FAudioDevice initialized.
+[2021.01.12-20.24.41:874][833]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-20.24.41:990][833]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.12-15.24.41
+[2021.01.12-20.24.42:026][833]LogWorld: Bringing up level for play took: 0.067360
+[2021.01.12-20.24.42:026][833]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.01.12-20.24.42:032][833]PIE: Server logged in
+[2021.01.12-20.24.42:033][833]PIE: Play in editor total start time 0.434 seconds.
+[2021.01.12-20.24.45:944][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.24.45:944][ 62]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.24.45:945][ 62]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.24.45:951][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.24.45:962][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-20.24.45:968][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.24.46:037][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.24.46:044][ 62]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017611B0E480), frame # 298062
+[2021.01.12-20.24.46:044][ 62]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017665F6BE00), frame # 298062
+[2021.01.12-20.24.46:051][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.12-20.24.46:103][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.01.12-20.24.46:135][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.01.12-20.25.45:840][271]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.12-20.25.45:854][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.12-20.25.45:854][271]PIE: New page: PIE session: LV_Soul_Slum (Jan 12, 2021, 10:25:45 AM)
+[2021.01.12-20.25.45:854][271]LogPlayLevel: Creating play world package: /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.25.46:038][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182726s)
+[2021.01.12-20.25.46:039][271]LogAIModule: Creating AISystem for world LV_Soul_Slum
+[2021.01.12-20.25.46:039][271]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017694C11600), frame # 299271
+[2021.01.12-20.25.46:039][271]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000176E3FC3C40), frame # 299271
+[2021.01.12-20.25.46:039][271]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2021.01.12-20.25.46:040][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SoulCity/Maps/LV_Soul_Slum.LV_Soul_Slum to /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum (0.184681s)
+[2021.01.12-20.25.46:064][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-20.25.46:068][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-20.25.46:068][271]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-20.25.46:068][271]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 4: BackLeft
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 5: BackRight
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 6: SideLeft
+[2021.01.12-20.25.46:071][271]LogAudioMixer: Display: 7: SideRight
+[2021.01.12-20.25.46:103][271]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.01.12-20.25.46:103][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-20.25.46:103][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-20.25.46:103][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-20.25.46:103][271]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-20.25.46:115][271]LogInit: FAudioDevice initialized.
+[2021.01.12-20.25.46:125][271]LogLoad: Game class is 'BP_DemoGame1GameMode_C'
+[2021.01.12-20.25.46:240][271]LogWorld: Bringing World /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum.LV_Soul_Slum up for play (max tick rate 60) at 2021.01.12-15.25.46
+[2021.01.12-20.25.46:275][271]LogWorld: Bringing up level for play took: 0.065762
+[2021.01.12-20.25.46:275][271]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.01.12-20.25.46:281][271]PIE: Server logged in
+[2021.01.12-20.25.46:282][271]PIE: Play in editor total start time 0.429 seconds.
+[2021.01.12-20.26.08:561][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.26.08:562][601]LogWorld: BeginTearingDown for /Game/SoulCity/Maps/UEDPIE_0_LV_Soul_Slum
+[2021.01.12-20.26.08:565][601]LogWorld: UWorld::CleanupWorld for LV_Soul_Slum, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-20.26.08:570][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.26.08:580][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.12-20.26.08:587][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-20.26.08:653][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-20.26.08:657][601]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000176E3FC3C40), frame # 300601
+[2021.01.12-20.26.08:657][601]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017694C11600), frame # 300601
+[2021.01.12-20.26.08:664][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.01.12-20.26.08:708][602]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.01.12-20.26.08:745][602]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms

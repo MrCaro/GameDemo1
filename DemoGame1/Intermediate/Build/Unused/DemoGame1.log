@@ -1,13 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1).
   Building DemoGame1Editor...
   Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 12 processes...
-    [1/5] DemoGame1GameMode.cpp
-    [2/5] MainCharacter.cpp
-    [3/5] UE4Editor-DemoGame1-0004.lib
-       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0004.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0004.exp
-    [4/5] UE4Editor-DemoGame1-0004.dll
-       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0004.suppressed.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0004.suppressed.exp
-    [5/5] DemoGame1Editor.target
-  Total time in Parallel executor: 8.67 seconds
-  Total execution time: 9.30 seconds
+  Building 4 actions with 12 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-DemoGame1-0005.lib
+       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0005.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0005.exp
+    [3/4] UE4Editor-DemoGame1-0005.dll
+       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0005.suppressed.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0005.suppressed.exp
+    [4/4] DemoGame1Editor.target
+  Total time in Parallel executor: 11.12 seconds
+  Total execution time: 11.82 seconds
