@@ -2,11 +2,11 @@
   Building DemoGame1Editor...
   Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] MainAnimInstance.cpp
-    [2/4] UE4Editor-DemoGame1-0011.lib
-       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0011.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0011.exp
-    [3/4] UE4Editor-DemoGame1-0011.dll
-       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0011.suppressed.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0011.suppressed.exp
+    [1/4] OverlapActor.cpp
+    [2/4] UE4Editor-DemoGame1-0017.lib
+       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0017.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0017.exp
+    [3/4] UE4Editor-DemoGame1-0017.dll
+       Creating library C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0017.suppressed.lib and object C:\Users\carlo\OneDrive\Documents\Unreal Projects\DemoGameProject1\DemoGame1\Intermediate\Build\Win64\UE4Editor\Development\DemoGame1\UE4Editor-DemoGame1-0017.suppressed.exp
     [4/4] DemoGame1Editor.target
-  Total time in Parallel executor: 1.65 seconds
-  Total execution time: 2.34 seconds
+  Total time in Parallel executor: 1.64 seconds
+  Total execution time: 2.24 seconds
