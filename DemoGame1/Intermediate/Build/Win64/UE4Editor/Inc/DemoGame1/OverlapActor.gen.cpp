@@ -20,9 +20,22 @@ void EmptyLinkFunctionForGeneratedCodeOverlapActor() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AOverlapActor::execComponentHit)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent);
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ComponentHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AOverlapActor::execEndOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
@@ -52,6 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeOverlapActor() {}
 		UClass* Class = AOverlapActor::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "BeginOverlap", &AOverlapActor::execBeginOverlap },
+			{ "ComponentHit", &AOverlapActor::execComponentHit },
 			{ "EndOverlap", &AOverlapActor::execEndOverlap },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -134,6 +148,78 @@ void EmptyLinkFunctionForGeneratedCodeOverlapActor() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AOverlapActor_BeginOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics
+	{
+		struct OverlapActor_eventComponentHit_Parms
+		{
+			UPrimitiveComponent* HitComponent;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_Hit_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(OverlapActor_eventComponentHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_Hit_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(OverlapActor_eventComponentHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(OverlapActor_eventComponentHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(OverlapActor_eventComponentHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_HitComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_HitComponent = { "HitComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(OverlapActor_eventComponentHit_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_HitComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_HitComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_Hit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_NormalImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::NewProp_HitComponent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "OverlapActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AOverlapActor, nullptr, "ComponentHit", nullptr, nullptr, sizeof(OverlapActor_eventComponentHit_Parms), Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AOverlapActor_ComponentHit()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AOverlapActor_ComponentHit_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -226,6 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeOverlapActor() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AOverlapActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AOverlapActor_BeginOverlap, "BeginOverlap" }, // 2220736568
+		{ &Z_Construct_UFunction_AOverlapActor_ComponentHit, "ComponentHit" }, // 3731528670
 		{ &Z_Construct_UFunction_AOverlapActor_EndOverlap, "EndOverlap" }, // 3749815177
 	};
 #if WITH_METADATA
@@ -281,7 +368,7 @@ void EmptyLinkFunctionForGeneratedCodeOverlapActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AOverlapActor, 2708858405);
+	IMPLEMENT_CLASS(AOverlapActor, 2743407348);
 	template<> DEMOGAME1_API UClass* StaticClass<AOverlapActor>()
 	{
 		return AOverlapActor::StaticClass();

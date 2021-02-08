@@ -10,6 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
 class AActor;
+struct FVector;
 struct FHitResult;
 #ifdef DEMOGAME1_OverlapActor_generated_h
 #error "OverlapActor.generated.h already included, missing '#pragma once' in OverlapActor.h"
@@ -19,12 +20,14 @@ struct FHitResult;
 #define DemoGame1_Source_DemoGame1_OverlapActor_h_12_SPARSE_DATA
 #define DemoGame1_Source_DemoGame1_OverlapActor_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execComponentHit); \
 	DECLARE_FUNCTION(execEndOverlap); \
 	DECLARE_FUNCTION(execBeginOverlap);
 
 
 #define DemoGame1_Source_DemoGame1_OverlapActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execComponentHit); \
 	DECLARE_FUNCTION(execEndOverlap); \
 	DECLARE_FUNCTION(execBeginOverlap);
 

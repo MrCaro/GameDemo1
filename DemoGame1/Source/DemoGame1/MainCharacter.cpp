@@ -4,8 +4,9 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
-#include "MainCharacter.h"
 #include "Components/InputComponent.h"
+#include "Animation/AnimInstance.h"
+#include "MainCharacter.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -13,7 +14,7 @@ AMainCharacter::AMainCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//Don't rotate whent the controller rotates
+	//Don't rotate when the controller rotates
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
@@ -67,6 +68,19 @@ void AMainCharacter::MoveRight(float Value)
 	}
 }
 
+void AMainCharacter::LMBDown()
+{
+	if (bAttacking) return;
+
+	bAttacking = true;
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	
+	if (AnimInstance && CountessAttackMontage)
+	{
+		AnimInstance->Montage_Play(CountessAttackMontage);
+	}
+}
+
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
@@ -80,6 +94,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
+	PlayerInputComponent->BindAction("LMBDown", IE_Pressed, this, &AMainCharacter::LMBDown);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);

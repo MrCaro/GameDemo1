@@ -29,6 +29,13 @@ protected:
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void LMBDown();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+	bool bAttacking;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
+	class UAnimMontage* CountessAttackMontage;
 
 public:	
 	// Called every frame

@@ -24,6 +24,7 @@ void AOverlapActor::BeginPlay()
 	Super::BeginPlay();
 	OverlapBox->OnComponentBeginOverlap.AddDynamic(this, &AOverlapActor::BeginOverlap);
 	OverlapBox->OnComponentEndOverlap.AddDynamic(this, &AOverlapActor::EndOverlap);
+	PickupMesh->OnComponentHit.AddDynamic(this, &AOverlapActor::ComponentHit);
 	
 }
 
@@ -42,6 +43,11 @@ void AOverlapActor::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 void AOverlapActor::EndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	UE_LOG(LogTemp, Warning, TEXT("EndOverlap"));
+}
+
+void AOverlapActor::ComponentHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Hitting Component"))
 }
 
 
