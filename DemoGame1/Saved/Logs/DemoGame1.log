@@ -739,3 +739,22 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.08-17.46.57:388][820]LogSavePackage: Moving '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Saved/BP_MainAnim23D332B64115C787E63F8AAEB00CC7BF.tmp' to '../../../../../../Users/carlo/OneDrive/Documents/Unreal Projects/DemoGameProject1/DemoGame1/Content/Chapter7/BP_MainAnim.uasset'
 [2021.02.08-17.46.57:411][820]AssetCheck: New page: Asset Save: BP_MainAnim
 [2021.02.08-17.46.57:411][820]LogContentValidation: Display: Validating AnimBlueprint /Game/Chapter7/BP_MainAnim.BP_MainAnim
+[2021.02.08-18.26.05:416][915]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.08-19.21.20:118][815]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.08-20.03.17:241][342]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.09-17.11.01:687][817]LogHttp: Warning: 00000245BFC53200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE937456F-44BB-2279-88CE-96BDB8D1BB39%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.02.09-17.11.01:689][817]LogHttp: Warning: 00000245BFC53200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.02.09-17.11.01:689][817]LogHttp: Warning: 00000245BFC53200: libcurl info message cache 0 (Connection 73 seems to be dead!)
+[2021.02.09-17.11.01:689][817]LogHttp: Warning: 00000245BFC53200: libcurl info message cache 1 (Closing connection 73)
+[2021.02.09-17.11.01:689][817]LogHttp: Warning: 00000245BFC53200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.02.09-17.11.01:689][817]LogHttp: Warning: 00000245BFC53200: libcurl info message cache 3 (Closing connection 74)
+[2021.02.09-17.11.02:005][818]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE937456F-44BB-2279-88CE-96BDB8D1BB39%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=a7997bb74c6b26d5bcd8c2ac5e6ad5a3%7Cd8e72f886a7740f5a1b0269f9f63f54f%7Ce00b6baf-4ab7-4d68-a03b-3d8ad7d50eaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.02.09-17.11.02:344][818]LogTemp: Resetting audio stream to device id 
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 1: FrontRight
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 4: BackLeft
+[2021.02.09-17.11.02:450][818]LogAudioMixer: Display: 5: BackRight
+[2021.02.09-17.11.02:451][818]LogAudioMixer: Display: 6: SideLeft
+[2021.02.09-17.11.02:451][818]LogAudioMixer: Display: 7: SideRight
